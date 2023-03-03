@@ -15,8 +15,8 @@
     "react-scripts": "^3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts  --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,7 +36,6 @@
     ]
   },
   "engines": {
-    "node": "16.14.0",
-    "npm": "8.3.1"
+    "node": "18.14.2"
   }
 }
